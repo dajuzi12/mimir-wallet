@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/dajuzi12/mimir-wallet/compare/service-v2.31.0...service-v3.0.0) (2025-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/dajuzi12/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/dajuzi12/mimir-wallet/issues/181)) ([7b7cf7a](https://github.com/dajuzi12/mimir-wallet/commit/7b7cf7a14c4c5ebeaf7901d20cade49c706681c8))
+* Add cross-chain calldata display component ([#291](https://github.com/dajuzi12/mimir-wallet/issues/291)) ([e3815f1](https://github.com/dajuzi12/mimir-wallet/commit/e3815f1ef1e83c9361ff35ca9fa7040124f7fd75))
+* Add dry run API support for transaction simulation ([#207](https://github.com/dajuzi12/mimir-wallet/issues/207)) ([bfd7313](https://github.com/dajuzi12/mimir-wallet/commit/bfd7313e8d7817d2ad5f5501c327c41c105d40c5))
+* Add notification center feature ([#282](https://github.com/dajuzi12/mimir-wallet/issues/282)) ([c5718d1](https://github.com/dajuzi12/mimir-wallet/commit/c5718d12e6c8371f38d8498234b30f162e273cec))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/dajuzi12/mimir-wallet/issues/171)) ([397338a](https://github.com/dajuzi12/mimir-wallet/commit/397338a5e2d699c24e028dd21a2ef7201a56ca11))
+* Add remote proxy support ([#236](https://github.com/dajuzi12/mimir-wallet/issues/236)) ([db2143e](https://github.com/dajuzi12/mimir-wallet/commit/db2143eb4f4220a64e20c67235634e5258d5c847))
+* add transaction subscription functionality ([#213](https://github.com/dajuzi12/mimir-wallet/issues/213)) ([f5bd867](https://github.com/dajuzi12/mimir-wallet/commit/f5bd8670852a5885d7942d89ba78ad729d61bfdc))
+* Add zkVerify testnet supported ([#251](https://github.com/dajuzi12/mimir-wallet/issues/251)) ([70cbcc8](https://github.com/dajuzi12/mimir-wallet/commit/70cbcc88e9ff5c327997a73de84f559d41ba1d23))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/dajuzi12/mimir-wallet/issues/198)) ([0ab3bed](https://github.com/dajuzi12/mimir-wallet/commit/0ab3bed5e9e36f4a4637b20de1f980b450153e97))
+* Improve UI display and user experience ([#218](https://github.com/dajuzi12/mimir-wallet/issues/218)) ([51986fe](https://github.com/dajuzi12/mimir-wallet/commit/51986fe7510e4b5c2cab60e096378cfd95a51b7b))
+* Optimize balance retrieval logic ([#311](https://github.com/dajuzi12/mimir-wallet/issues/311)) ([7abb8a7](https://github.com/dajuzi12/mimir-wallet/commit/7abb8a7b1a5ed748819154852dbf7771ff29cff1))
+* remove assethub next westend network ([#232](https://github.com/dajuzi12/mimir-wallet/issues/232)) ([436e5ac](https://github.com/dajuzi12/mimir-wallet/commit/436e5ac98a5b47fd863a0edf10e119e19c38c333))
+* remove batch restore functionality ([#204](https://github.com/dajuzi12/mimir-wallet/issues/204)) ([b91eeea](https://github.com/dajuzi12/mimir-wallet/commit/b91eeea882e14ff942828c28d4d9b31ab7c84b36))
+* subscribe wallet accounts changed ([#176](https://github.com/dajuzi12/mimir-wallet/issues/176)) ([619b3aa](https://github.com/dajuzi12/mimir-wallet/commit/619b3aad52cd67b1bf7cb1509f3d05112cc7d9f1))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/dajuzi12/mimir-wallet/issues/261)) ([54f4766](https://github.com/dajuzi12/mimir-wallet/commit/54f4766a4e295fa8d06afb52ce102e4564dc1533))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/dajuzi12/mimir-wallet/issues/267)) ([44f7a36](https://github.com/dajuzi12/mimir-wallet/commit/44f7a361f10d730e2c095ff5da7e2b125b8b4528))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.30.0...service-v2.31.0) (2025-10-08)
 
 

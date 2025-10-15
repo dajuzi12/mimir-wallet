@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.0.0](https://github.com/dajuzi12/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/dajuzi12/mimir-wallet/issues/323)) ([a17598a](https://github.com/dajuzi12/mimir-wallet/commit/a17598ab749c61dfbc52ee383b8303d814fc4ec6))
+* Add astar network support ([#230](https://github.com/dajuzi12/mimir-wallet/issues/230)) ([5f83d51](https://github.com/dajuzi12/mimir-wallet/commit/5f83d51d7450fe2d4db6930aee98e740995fbebe))
+* Add cross-chain calldata display component ([#291](https://github.com/dajuzi12/mimir-wallet/issues/291)) ([e3815f1](https://github.com/dajuzi12/mimir-wallet/commit/e3815f1ef1e83c9361ff35ca9fa7040124f7fd75))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/dajuzi12/mimir-wallet/issues/285)) ([b8ebb1d](https://github.com/dajuzi12/mimir-wallet/commit/b8ebb1d2a2b869b2f5d9bb2ad22890f3bf93f0f7))
+* Add dry run API support for transaction simulation ([#207](https://github.com/dajuzi12/mimir-wallet/issues/207)) ([bfd7313](https://github.com/dajuzi12/mimir-wallet/commit/bfd7313e8d7817d2ad5f5501c327c41c105d40c5))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/dajuzi12/mimir-wallet/issues/309)) ([3b02a09](https://github.com/dajuzi12/mimir-wallet/commit/3b02a09cb125aa414fe3259080832bca8860aad3))
+* Add moonbeam and tanssi network support ([#327](https://github.com/dajuzi12/mimir-wallet/issues/327)) ([f338a0f](https://github.com/dajuzi12/mimir-wallet/commit/f338a0f7f4bf5a0c4d934f69e810aa86b19ae810))
+* Add notification center feature ([#282](https://github.com/dajuzi12/mimir-wallet/issues/282)) ([c5718d1](https://github.com/dajuzi12/mimir-wallet/commit/c5718d12e6c8371f38d8498234b30f162e273cec))
+* Add PAssetHub network support ([#239](https://github.com/dajuzi12/mimir-wallet/issues/239)) ([384ed78](https://github.com/dajuzi12/mimir-wallet/commit/384ed78115e199d56ce91c4a7f9ae0e4d9a36047))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/dajuzi12/mimir-wallet/issues/321)) ([b491816](https://github.com/dajuzi12/mimir-wallet/commit/b4918165e23e245131b3e65378fc8ce46e8069df))
+* Add remote proxy support ([#236](https://github.com/dajuzi12/mimir-wallet/issues/236)) ([db2143e](https://github.com/dajuzi12/mimir-wallet/commit/db2143eb4f4220a64e20c67235634e5258d5c847))
+* Add walletconnect in dapp page ([#217](https://github.com/dajuzi12/mimir-wallet/issues/217)) ([9e80b71](https://github.com/dajuzi12/mimir-wallet/commit/9e80b71bac59229f80169d2ca0855c333bbd7e3f))
+* Add xcavate network support ([#237](https://github.com/dajuzi12/mimir-wallet/issues/237)) ([1f3b980](https://github.com/dajuzi12/mimir-wallet/commit/1f3b9801b11889437fab99a7844bd37486079b48))
+* Add zkverify mainnet support ([#312](https://github.com/dajuzi12/mimir-wallet/issues/312)) ([6270cfa](https://github.com/dajuzi12/mimir-wallet/commit/6270cfa0fc4499c71255b053b32f83a20b0ecf84))
+* Add zkVerify testnet supported ([#251](https://github.com/dajuzi12/mimir-wallet/issues/251)) ([70cbcc8](https://github.com/dajuzi12/mimir-wallet/commit/70cbcc88e9ff5c327997a73de84f559d41ba1d23))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/dajuzi12/mimir-wallet/issues/254)) ([66f9761](https://github.com/dajuzi12/mimir-wallet/commit/66f9761b096cdbb1dafe19e0eb165af578cd78da))
+* Improve UI display and user experience ([#218](https://github.com/dajuzi12/mimir-wallet/issues/218)) ([51986fe](https://github.com/dajuzi12/mimir-wallet/commit/51986fe7510e4b5c2cab60e096378cfd95a51b7b))
+* Optimize balance retrieval logic ([#311](https://github.com/dajuzi12/mimir-wallet/issues/311)) ([7abb8a7](https://github.com/dajuzi12/mimir-wallet/commit/7abb8a7b1a5ed748819154852dbf7771ff29cff1))
+* optimize rpc connection and improve network stability ([#193](https://github.com/dajuzi12/mimir-wallet/issues/193)) ([2989b09](https://github.com/dajuzi12/mimir-wallet/commit/2989b09e14f304e5afb9948cbf6b1c15c07aa016))
+* remove assethub next westend network ([#232](https://github.com/dajuzi12/mimir-wallet/issues/232)) ([436e5ac](https://github.com/dajuzi12/mimir-wallet/commit/436e5ac98a5b47fd863a0edf10e119e19c38c333))
+* subscribe wallet accounts changed ([#176](https://github.com/dajuzi12/mimir-wallet/issues/176)) ([619b3aa](https://github.com/dajuzi12/mimir-wallet/commit/619b3aad52cd67b1bf7cb1509f3d05112cc7d9f1))
+* Support eth address transfer on westend ([#234](https://github.com/dajuzi12/mimir-wallet/issues/234)) ([1242509](https://github.com/dajuzi12/mimir-wallet/commit/1242509fd478ffd92feee6d9859fb6d3f2ff9912))
+* support eth address trasfer on westend assethub ([#224](https://github.com/dajuzi12/mimir-wallet/issues/224)) ([bc73144](https://github.com/dajuzi12/mimir-wallet/commit/bc731448ef34bd450e399f1b9a1a1b2971158c1c))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/dajuzi12/mimir-wallet/issues/261)) ([54f4766](https://github.com/dajuzi12/mimir-wallet/commit/54f4766a4e295fa8d06afb52ce102e4564dc1533))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/dajuzi12/mimir-wallet/issues/268)) ([2033a2e](https://github.com/dajuzi12/mimir-wallet/commit/2033a2eeec39d321bff8094119c4338a9018405d))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/dajuzi12/mimir-wallet/issues/267)) ([44f7a36](https://github.com/dajuzi12/mimir-wallet/commit/44f7a361f10d730e2c095ff5da7e2b125b8b4528))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/dajuzi12/mimir-wallet/issues/247)) ([1a4a532](https://github.com/dajuzi12/mimir-wallet/commit/1a4a53237b27ff6aa1b2b3b70059889d4daa5696))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/dajuzi12/mimir-wallet/issues/178)) ([8f1e67e](https://github.com/dajuzi12/mimir-wallet/commit/8f1e67e9fb516727612ed187b408e2e685052fd6))
+* Fix some issues while connect wallet ([#220](https://github.com/dajuzi12/mimir-wallet/issues/220)) ([be5deb6](https://github.com/dajuzi12/mimir-wallet/commit/be5deb6e2e86434fcec233b61e20bc72f9219c99))
+* improve user experience and fix bugs ([#222](https://github.com/dajuzi12/mimir-wallet/issues/222)) ([37067a9](https://github.com/dajuzi12/mimir-wallet/commit/37067a94243cf4b076f97af39e5b9a6d74e27e23))
+* optimize balance fetching performance ([#228](https://github.com/dajuzi12/mimir-wallet/issues/228)) ([64ed6f2](https://github.com/dajuzi12/mimir-wallet/commit/64ed6f2b5d356945448268744d620b6b857bd90a))
+* optimize user experience and fix some bugs ([#226](https://github.com/dajuzi12/mimir-wallet/issues/226)) ([cd4a29a](https://github.com/dajuzi12/mimir-wallet/commit/cd4a29a9a7c89361b5876e9916008aac42f6db6b))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.30.0...polkadot-core-v2.31.0) (2025-10-08)
 
 
